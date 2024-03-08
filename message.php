@@ -1,5 +1,5 @@
 <?php
-    // kết nối tới database trên phpmyadmin
+    // kết nối tới database trên phpmyadmin theo procedural(thủ tục)
     $conn = mysqli_connect("localhost", "root", "", "bot") or die("Database Error");
     // chuỗi được người dùng nhập vào qua biến input từ bot.php
     $getMesg = mysqli_real_escape_string($conn, $_POST['input']);
