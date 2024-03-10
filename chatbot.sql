@@ -37,9 +37,10 @@ CREATE TABLE `chatbot` (
 --
 
 INSERT INTO `chatbot` (`queries`, `replies`) VALUES
-('chào|hi|hello|bonjour', 'Chào bạn'),
+('chào|hi|hello|bonjour', 'Chào bạn.'),
 ('bạn tên gì|bạn tên là gì', 'Tôi là chatbot với rất ít kinh nghiệm. Tôi chưa được đặt tên.'),
-('gke|ghe|ghê|gkê', 'Bạn cũng vậy.');
+('gke|ghe|ghê|gkê', 'Bạn cũng vậy.')
+('vì sao Quỳnh Chi không thuyết trình', 'Đơn giản là vì cô ấy không thích.');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
