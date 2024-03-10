@@ -12,9 +12,9 @@
         // lấy row data dưới dạng mảng
         $fetch_data = mysqli_fetch_assoc($run_query);
         // lấy kết quả muốn trả về là giá trị của replies trong row trên
-        $replay = $fetch_data['replies'];
+        $reply = $fetch_data['replies'];
         // trả về kết quả
-        echo $replay;
+        echo $reply;
     }
     else {
         /* nếu trên database không có dữ liệu ứng với yêu cầu

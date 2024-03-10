@@ -54,6 +54,7 @@ html,body{
     width: 100%;
     display: flex;
     align-items: baseline;
+    word-break: break-word;
 }
 .wrapper .form .user-inbox{
     justify-content: flex-end;
@@ -72,6 +73,7 @@ html,body{
 .wrapper .form .inbox .msg-header{
     max-width: 53%;
     margin-left: 10px;
+    overflow-wrap: break-word;
 }
 .form .inbox .msg-header p{
     color: #fff;
@@ -79,7 +81,6 @@ html,body{
     border-radius: 10px;
     padding: 8px 10px;
     font-size: 14px;
-    word-break: break-all;
 }
 .form .user-inbox .msg-header p{
     color: #333;
